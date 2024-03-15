@@ -18,19 +18,13 @@ void initialize_developer(Developer *const dev, const char *name, const char *al
 }
  
  
- void developer_print(Developer const *const dev)
+ char developer_print(Developer const *const dev)
 {
-    if (dev == NULL)
-    {
-        printf("\033[4;33m developer print: invalid data\n\033[0m");
-    }
-    else
-    {
-        printf("=====================\n");
-        printf("DEVELOPER: \n");
+    printf("=====================\n");
+    printf("DEVELOPER: \n");
         
-        printf("name: %s\n", dev->name);
-        printf("alias: %u\n", dev->alias);
-        printf("=====================\n");
-    }
+    printf("name: %s\n", dev->name);
+    printf("alias: %u\n", dev->alias);
+    printf("=====================\n");
+    
 }
