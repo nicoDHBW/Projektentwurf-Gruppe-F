@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "developer_group.h"
 
 int main(void)
 {
     char input1[30]; // Buffer for user input
     char action = 0; // Variable to store user action
     int continue_loop = 1; // Flag to control the loop
+    DeveloperGroup g;
+
+    initialize_developer_group( &g );
+    add_developer_to_group( &g, "Nico", "München");
+    add_developer_to_group( &g, "Niko", "Ulm");
 
     while(continue_loop)
     {
@@ -26,14 +32,14 @@ int main(void)
         switch (action)
         {
             case '1':   //print devs names and aliases
-                developer_print();
+                print_developers( &g );
                 break;
             case '2':   //print devs group logo
-                logo_print();
+                print_logo( &g );
                 break;
             case '3':   //does case1 and 2 combined
-                developer_print();
-                logo_print();
+                print_logo( &g );
+                print_developers( &g );
                 break;
             case '4':   //exits loop and terminates the program
                 continue_loop = 0;

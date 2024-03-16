@@ -15,6 +15,6 @@ typedef struct {
 void initialize_developer(Developer *dev, const char *name, const char *alias);
 
 //print the Developer structure to the stdout
-void developer_print(Developer const *dev);
+void developer_print(Developer const * const dev);
 
 #endif /* DEVELOPER_H_ */

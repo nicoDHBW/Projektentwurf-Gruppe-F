@@ -1,0 +1,8 @@
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/uni_library.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/Projektentwurf-Gruppe-F_main.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/edit_cache.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/list_install_components.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/install.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/install/local.dir
+/workspaces/Projektentwurf-Gruppe-F/code_4_exam/build/CMakeFiles/install/strip.dir

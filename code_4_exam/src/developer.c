@@ -18,13 +18,13 @@ void initialize_developer(Developer *dev, const char *name, const char *alias)
 }
  
  
- char developer_print(Developer const *const dev)
+ void developer_print(Developer const * const dev)
 {
     printf("=====================\n");
     printf("DEVELOPER: \n");
         
-    printf("name: %s\n", dev->name);
-    printf("alias: %u\n", dev->alias);
+    printf("name : %s\n", dev->name);
+    printf("alias: %s\n", dev->alias);
     printf("=====================\n");
     
 }
