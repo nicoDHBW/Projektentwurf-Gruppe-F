@@ -17,7 +17,7 @@ void initialize_developer(Developer *dev, const char *name, const char *alias)
     dev->alias[sizeof(dev->alias)-1] = '\0'; // Ensure the alias is terminated with null terminator
 }
  
- 
+ // Function to print developer details
  void developer_print(Developer const * const dev)
 {
     printf("=====================\n");

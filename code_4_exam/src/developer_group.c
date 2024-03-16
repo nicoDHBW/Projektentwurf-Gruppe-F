@@ -6,7 +6,7 @@
 // Initialization function for a developer group
 void initialize_developer_group(DeveloperGroup *devg)
 {
-    // Anzahl Developer ist am Anfang 0
+    // Number of developers is initially 0
     devg->anzahl_dev = 0;
 
     // initialize logo
@@ -47,7 +47,7 @@ void print_developers(DeveloperGroup *devg)
     }
 }
 
-
+// Function to print the logo of the developer group
 void print_logo(DeveloperGroup *devg)
 {
     int i = 0;

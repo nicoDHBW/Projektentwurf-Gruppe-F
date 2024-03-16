@@ -8,8 +8,10 @@ int main(void)
     char action = 0; // Variable to store user action
     int continue_loop = 1; // Flag to control the loop
     DeveloperGroup g;
-
+    
+    // Initialize the developer group
     initialize_developer_group( &g );
+    // Add developers to the group
     add_developer_to_group( &g, "Nico", "München");
     add_developer_to_group( &g, "Niko", "Ulm");
 
@@ -31,10 +33,10 @@ int main(void)
 
         switch (action)
         {
-            case '1':   //print devs names and aliases
+            case '1':   //print developers' names and aliases
                 print_developers( &g );
                 break;
-            case '2':   //print devs group logo
+            case '2':   //print developer group logo
                 print_logo( &g );
                 break;
             case '3':   //does case1 and 2 combined
