@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/workspaces/Projektentwurf-Gruppe-F/build",
+  "command": "/usr/bin/gcc -I/workspaces/Projektentwurf-Gruppe-F/code_4_exam/include -g -std=gnu11 -Wall -Wextra -pedantic -O0 -o CMakeFiles/uni_library.dir/src/developer_group.c.o -c /workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/developer_group.c",
+  "file": "/workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/developer_group.c",
+  "output": "CMakeFiles/uni_library.dir/src/developer_group.c.o"
+},
+{
+  "directory": "/workspaces/Projektentwurf-Gruppe-F/build",
+  "command": "/usr/bin/gcc -I/workspaces/Projektentwurf-Gruppe-F/code_4_exam/include -g -std=gnu11 -Wall -Wextra -pedantic -O0 -o CMakeFiles/uni_library.dir/src/developer.c.o -c /workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/developer.c",
+  "file": "/workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/developer.c",
+  "output": "CMakeFiles/uni_library.dir/src/developer.c.o"
+},
+{
+  "directory": "/workspaces/Projektentwurf-Gruppe-F/build",
+  "command": "/usr/bin/gcc -I/workspaces/Projektentwurf-Gruppe-F/code_4_exam/include -g -std=gnu11 -Wall -Wextra -pedantic -O0 -o CMakeFiles/Projektentwurf-Gruppe-F_main.dir/src/main.c.o -c /workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/main.c",
+  "file": "/workspaces/Projektentwurf-Gruppe-F/code_4_exam/src/main.c",
+  "output": "CMakeFiles/Projektentwurf-Gruppe-F_main.dir/src/main.c.o"
+}
+]

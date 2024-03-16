@@ -18,4 +18,5 @@
     "cmake.configureArgs": ["-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"],
 
     "terminal.integrated.defaultProfile.linux": "bash",
+    "cmake.sourceDirectory": "/workspaces/Projektentwurf-Gruppe-F/code_4_exam",
 }

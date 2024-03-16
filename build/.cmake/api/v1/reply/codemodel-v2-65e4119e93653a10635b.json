@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-69b8e391c9a322ea6b00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Projektentwurf-Gruppe-F",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Projektentwurf-Gruppe-F_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Projektentwurf-Gruppe-F_main-Debug-2b92564d363649ea7ff5.json",
+					"name" : "Projektentwurf-Gruppe-F_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uni_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uni_library-Debug-f16611c9db93ebcd20f2.json",
+					"name" : "uni_library",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/Projektentwurf-Gruppe-F/build",
+		"source" : "/workspaces/Projektentwurf-Gruppe-F/code_4_exam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

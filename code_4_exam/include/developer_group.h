@@ -2,7 +2,7 @@
 #define DEVELOPER_GROUP_H
 
 #define MAX_DEVELOPERS 5
-#define MAX_LOGO_LINE 10
+#define MAX_LOGO_LINE 9
 #define MAX_LOGO_COLUMN 20
 
 

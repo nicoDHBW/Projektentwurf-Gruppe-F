@@ -10,16 +10,16 @@ void initialize_developer_group(DeveloperGroup *devg)
     devg->anzahl_dev = 0;
 
     // initialize logo
-    strcpy(devg->logo[0], "  .--.");
-    strcpy(devg->logo[1], " : ( '\\");
-    strcpy(devg->logo[2], "  \\    .-----.  ");
-    strcpy(devg->logo[3], "   \\  /       \\");
-    strcpy(devg->logo[4], "    |/ o     o \\");
-    strcpy(devg->logo[5], "    |           |");
-    strcpy(devg->logo[6], "    |  .---.  |");
-    strcpy(devg->logo[7], "    \\       /-'");
-    strcpy(devg->logo[8], "     \\  `--'`\\");
-    strcpy(devg->logo[9], "      `------' ");
+    strcpy(devg->logo[0], "/^-----^\\");
+    strcpy(devg->logo[1], "V  o o  V");
+    strcpy(devg->logo[2], " |  Y  |");
+    strcpy(devg->logo[3], "  \\ Q /");
+    strcpy(devg->logo[4], "  / - \\");
+    strcpy(devg->logo[5], "  |    \\");
+    strcpy(devg->logo[6], "  |     \\     )");
+    strcpy(devg->logo[7], "  || (___\\====");
+    strcpy(devg->logo[8], "");
+
 }
 
 // add developer to group
