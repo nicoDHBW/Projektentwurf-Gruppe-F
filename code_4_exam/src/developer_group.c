@@ -1,6 +1,24 @@
 #include "developer_group.h"
 #include <stdio.h>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 char logo_print()
 {
     printf("  .--.\n");

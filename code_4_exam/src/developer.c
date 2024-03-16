@@ -1,11 +1,11 @@
-#include "developer.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+#include "developer.h"
+
 // Initialization function for a developer
-void initialize_developer(Developer *const dev, const char *name, const char *alias) 
+void initialize_developer(Developer *dev, const char *name, const char *alias) 
 {
     
     // Copy the name into the "name" field of the structure

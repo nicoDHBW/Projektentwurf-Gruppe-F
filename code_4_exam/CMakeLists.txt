@@ -18,15 +18,14 @@ endif()
 # add a library for your functions
 add_library(uni_library STATIC
     src/developer_group.c
-    src/developer.c
-    src/main.c)
+    src/developer.c)
 # add the includes to the library
 target_include_directories(uni_library PUBLIC include)
 
 # add an executabel and assign files to it
 add_executable(Projektentwurf-Gruppe-F_main src/main.c)
 # add the include directories
-target_include_directories(Projektentwurf-Gruppe-F_main PRIVATE include)
+target_include_directories(Projektentwurf-Gruppe-F_main PUBLIC include)
 # link your library
 target_link_libraries(Projektentwurf-Gruppe-F_main PRIVATE uni_library)
 
