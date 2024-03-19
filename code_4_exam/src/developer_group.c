@@ -35,7 +35,7 @@ void add_developer_to_group( DeveloperGroup *devg, char *name, char *alias )
 }
 
 // Function to print developers in the group
-void print_developers(DeveloperGroup *devg)
+void print_developers(const DeveloperGroup * const devg)
 {
     int i=0;
 
@@ -48,7 +48,7 @@ void print_developers(DeveloperGroup *devg)
 }
 
 // Function to print the logo of the developer group
-void print_logo(DeveloperGroup *devg)
+void print_logo(const DeveloperGroup * const devg)
 {
     int i = 0;
 
