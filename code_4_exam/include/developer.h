@@ -1,8 +1,8 @@
 #ifndef DEVELOPER_H_
 #define DEVELOPER_H_
 
-#define DEVELOPER_MAX_NAME_LENGTH (16U) //16 bc of the longest name in our group
-#define ALIAS_MAX_NAME_LENGTH (9U)  //9 bc of the longest alias in the group
+#define DEVELOPER_MAX_NAME_LENGTH (6U)      //6 bc of the longest name in our group
+#define ALIAS_MAX_NAME_LENGTH (9U)      //9 bc of the longest alias in the group
 
 
 // Structure for a developer

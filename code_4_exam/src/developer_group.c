@@ -7,7 +7,7 @@
 void initialize_developer_group(DeveloperGroup *devg)
 {
     // Number of developers is initially 0
-    devg->anzahl_dev = 0;
+    devg->number_of_dev = 0;
 
     // initialize logo
     strcpy(devg->logo[0], "/^-----^\\");
@@ -23,14 +23,19 @@ void initialize_developer_group(DeveloperGroup *devg)
 }
 
 // add developer to group
-void add_developer_to_group( DeveloperGroup *devg, char *name, char *alias )
+void add_developer_to_group( DeveloperGroup *devg, const char *name, const char *alias )
 {
     // check if group is full
-    if( devg->anzahl_dev < MAX_DEVELOPERS )
+    if( devg->number_of_dev < MAX_DEVELOPERS )
     {
-        strcpy(devg->developers[devg->anzahl_dev].name, name); 
-        strcpy(devg->developers[devg->anzahl_dev].alias, alias); 
-        devg->anzahl_dev++;
+        // check if name and alias are not NULL
+        if( name && alias)
+        {
+            initialize_developer( &(devg->developers[devg->number_of_dev]), name, alias );
+            // strcpy(devg->developers[devg->number_of_dev].name, name); 
+            // strcpy(devg->developers[devg->number_of_dev].alias, alias); 
+            devg->number_of_dev++;
+        }
     }
 }
 
@@ -39,11 +44,13 @@ void print_developers(const DeveloperGroup * const devg)
 {
     int i=0;
 
-    for( i=0; i< devg->anzahl_dev; i++)
+    for( i=0; i< devg->number_of_dev; i++)
     {
         printf( "Developer %d:\n", i+1 );
-        printf( "    Name  : %s\n", devg->developers[i].name );
-        printf( "    Alias : %s\n", devg->developers[i].alias );
+
+        developer_print( &devg->developers[i] );
+        //printf( "    Name  : %s\n", devg->developers[i].name );
+        //printf( "    Alias : %s\n", devg->developers[i].alias );
     }
 }
 
