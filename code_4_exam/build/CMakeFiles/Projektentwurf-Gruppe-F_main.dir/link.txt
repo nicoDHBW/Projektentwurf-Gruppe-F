@@ -1,1 +1,0 @@
-/usr/bin/cc -g "CMakeFiles/Projektentwurf-Gruppe-F_main.dir/src/main.c.o" -o Projektentwurf-Gruppe-F_main  libuni_library.a 
