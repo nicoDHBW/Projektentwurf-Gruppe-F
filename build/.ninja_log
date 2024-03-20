@@ -1,6 +1,0 @@
-# ninja log v5
-0	91	1710596977120491306	CMakeFiles/uni_library.dir/src/developer_group.c.o	113ff55d2791cc1b
-2	121	1710596977148491307	CMakeFiles/Projektentwurf-Gruppe-F_main.dir/src/main.c.o	5d5685f9686f1d2b
-0	125	1710596977156491308	CMakeFiles/uni_library.dir/src/developer.c.o	d3a7332e39235e09
-125	273	1710596977296491314	libuni_library.a	ac281ea012d2992f
-273	327	1710596977356491317	Projektentwurf-Gruppe-F_main	236df648069a2a2a
