@@ -1,7 +1,7 @@
 #ifndef DEVELOPER_H_
 #define DEVELOPER_H_
 
-#define DEVELOPER_MAX_NAME_LENGTH (6U)      //6 bc of the longest name in our group
+#define DEVELOPER_MAX_NAME_LENGTH (5U)      //5 bc of the longest name in our group
 #define ALIAS_MAX_NAME_LENGTH (9U)      //9 bc of the longest alias in the group
 
 
@@ -13,7 +13,7 @@ typedef struct {
 
 // Initialization function for a developer
 void initialize_developer(Developer *dev, const char *name, const char *alias);
-
+    
 //print the Developer structure to the stdout
 void developer_print(Developer const * const dev);
 

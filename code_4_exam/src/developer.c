@@ -23,9 +23,6 @@ void initialize_developer(Developer *dev, const char *name, const char *alias)
  // Function to print developer details
  void developer_print(Developer const * const dev)
 {
-    printf("=====================\n");
-    printf("DEVELOPER: \n");
-        
     printf("    name : %s\n", dev->name);
     printf("    alias: %s\n", dev->alias);
     printf("=====================\n");    
